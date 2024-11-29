@@ -54,6 +54,23 @@
     color: #ffcc00;
   }
   
+  /* Botão de WhatsApp */
+  .btn-whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-whatsapp:hover {
+    background: #1DA851;
+  }
+  
   /* Conteúdo Principal */
   main {
     padding: 20px;
@@ -76,5 +93,41 @@
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .social-icon.instagram {
+    background: #C13584;
+  }
+  
+  .social-icon.instagram:hover {
+    background: #E1306C;
+  }
+  
+  .social-icon.whatsapp {
+    background: #25D366;
+  }
+  
+  .social-icon.whatsapp:hover {
+    background: #1DA851;
   }
   
