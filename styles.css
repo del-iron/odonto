@@ -13,7 +13,7 @@
   
   /* Banner */
   .banner {
-    background: #0056b3;
+    background: #3c6b9c;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -75,6 +75,11 @@
   main {
     padding: 20px;
     text-align: center;
+  }
+
+  /* Justificar texto da seção "Sobre Nós" */
+  section#about p {
+    text-align: justify;
   }
   
   section {
